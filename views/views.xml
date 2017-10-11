@@ -1,0 +1,164 @@
+<odoo>
+  <data>
+    
+    <record id="epic_control_product_form_view" model="ir.ui.view">
+      <field name="name">Epic Pacman</field>
+      <field name="model">product.template</field>
+      <field name="inherit_id" ref="product.product_template_form_view"/>
+      <field name="arch" type="xml">
+        <field name="type" position="before">
+          <field name="class_type" />
+        </field>
+      </field>
+    </record>
+    
+    <record id="epic_control_form_view" model="ir.ui.view">
+      <field name="name">Epic Pacman</field>
+      <field name="model">epic.control</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <field name="fixed_products" widget="many2many_kanban">
+                <kanban quick_create="true" create="true" delete="true">
+                    <field name="image_small"/>
+                    <field name="lst_price"/>
+                    <field name="product_variant_count"/>
+                    <field name="product_variant_ids"/>
+                    <field name="currency_id"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_global_click">
+                                <a t-if="! read_only_mode" type="delete" style="position: absolute; right: 0; padding: 4px; diplay: inline-block">X</a>
+                                <div class="o_kanban_image">
+                                    <img t-att-src="kanban_image('product.template', 'image_small', record.id.value)"/>
+                                </div>
+                                <div class="oe_kanban_details">
+                                    <strong>
+                                        <span t-if="record.default_code.value">[<field name="default_code"/>]</span>
+                                        <field name="name"/>
+                                    </strong>
+                                    <div t-if="record.product_variant_count.value &gt; 1" groups="product.group_product_variant">
+                                        <strong>
+                                            <t t-esc="record.product_variant_count.value"/> Variants
+                                        </strong>
+                                    </div>
+                                    <div name="tags"/>
+                                    <ul>
+                                        <li>Price: <field name="lst_price" widget="monetary"></field></li>
+                                    </ul>
+                                    <div name="tags"/>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+              </field>
+              <field name="random_products" widget="many2many_kanban">
+                  <kanban quick_create="true" create="true" delete="true">
+                    <field name="image_small"/>
+                    <field name="lst_price"/>
+                    <field name="product_variant_count"/>
+                    <field name="product_variant_ids"/>
+                    <field name="currency_id"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_global_click">
+                                <a t-if="! read_only_mode" type="delete" style="position: absolute; right: 0; padding: 4px; diplay: inline-block">X</a>
+                                <div class="o_kanban_image">
+                                    <img t-att-src="kanban_image('product.template', 'image_small', record.id.value)"/>
+                                </div>
+                                <div class="oe_kanban_details">
+                                    <strong>
+                                        <span t-if="record.default_code.value">[<field name="default_code"/>]</span>
+                                        <field name="name"/>
+                                    </strong>
+                                    <div t-if="record.product_variant_count.value &gt; 1" groups="product.group_product_variant">
+                                        <strong>
+                                            <t t-esc="record.product_variant_count.value"/> Variants
+                                        </strong>
+                                    </div>
+                                    <div name="tags"/>
+                                    <ul>
+                                        <li>Price: <field name="lst_price" widget="monetary"></field></li>
+                                    </ul>
+                                    <div name="tags"/>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+              </field>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+    
+    
+    <record id="epic_control_menu_action" model="ir.actions.act_window">
+      <field name="name">Epic Pacman</field>
+      <field name="res_model">epic.control</field>
+      <field name="view_mode">tree,form</field>
+    </record>   
+    
+    
+    <menuitem id="epic_control_menu" action="epic_control_menu_action"/>
+    
+    <!-- explicit list view definition -->
+    <!--
+    <record model="ir.ui.view" id="epic.list">
+      <field name="name">epic list</field>
+      <field name="model">epic.epic</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+    -->
+
+    <!-- actions opening views on models -->
+    <!--
+    <record model="ir.actions.act_window" id="epic.action_window">
+      <field name="name">epic window</field>
+      <field name="res_model">epic.epic</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    -->
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="epic.action_server">
+      <field name="name">epic server</field>
+      <field name="model_id" ref="model_epic_epic"/>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <!--
+    <menuitem name="epic" id="epic.menu_root"/>
+    -->
+    <!-- menu categories -->
+    <!--
+    <menuitem name="Menu 1" id="epic.menu_1" parent="epic.menu_root"/>
+    <menuitem name="Menu 2" id="epic.menu_2" parent="epic.menu_root"/>
+    -->
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="epic.menu_1_list" parent="epic.menu_1"
+              action="epic.action_window"/>
+    <menuitem name="Server to list" id="epic" parent="epic.menu_2"
+              action="epic.action_server"/>
+    -->
+  </data>
+</odoo>

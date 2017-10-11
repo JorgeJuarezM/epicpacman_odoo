@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<template id="homepage">
+&lt;!doctype html&gt;
+<html class="no-js" lang="es">
+    <head>
+        <!-- title -->
+        <title>epic :v</title>
+        <!-- description -->
+        <meta name="description" content="Una marca de ropa rikolina para elfas y papus shidoris. No ban plox."/>
+        <!-- keywords -->
+        
+        <meta charset="utf-8"/>
+        <meta name="author" content="@MrDarlaine"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.png"/>
+        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"/>
+        <!-- animation -->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/css/animate.css" />
+        <!-- bootstrap -->
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/css/bootstrap.min.css"/>
+        <!-- et line icon --> 
+        <link rel="stylesheet" href="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/css/et-line-icons.css" />
+        <!-- font-awesome icon -->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/css/font-awesome.min.css" />
+        <!-- owl carousel -->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/css/owl.transitions.css" />
+        <link rel="stylesheet" href="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/css/owl.carousel.css" />
+        <!-- magnific popup -->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/css/magnific-popup.css" />
+        <!-- style -->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/css/style.css" />
+        <!-- responsive css -->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/css/responsive.css" />
+        <!--[if IE]>
+            <script src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/html5shiv.js"></script>
+
+
+
+        <![endif]-->
+
+
+
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"/>
+
+
+    </head>
+
+
+    <body style="background:#fff top #1e2126 no-repeat;">
+        <!-- navigation -->
+        <nav class="navbar no-margin-bottom no-border navbar-height alt-font shrink">
+            <div class="container navigation-menu">
+                <div class="row">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="col-lg-2 col-md-2 navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand inner-link" href="#home"><img src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/images/x2logo.png" alt="" width="80%" /></a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-9 collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#home" class="inner-link">Top</a></li>
+                            <li><a href="#packages" class="inner-link">Playeras</a></li>
+                            
+                            <li><a href="#special-offer" class="inner-link">Ofertón</a></li>
+                           
+                            <li><a href="#contact" class="inner-link">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-2 pull-right header-right text-right sm-display-none">
+                        <a href="https://twitter.com/mrdarlaine" class="twitter-follow-button" data-show-count="false">Follow @mrdarlaine</a><script async="1" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end navigation -->
+        <!-- slider -->
+        <section id="home" class="travel-top-slider">
+            <div class="owl-slider-full owl-carousel owl-theme dark-pagination  main-slider">
+                <!-- slider item -->
+                <div class="item owl-bg-img">
+                    <div class="container position-relative">
+                        <div class="row">
+                            <div class="col-md-12">
+
+
+                                <div class="col-md-6 col-sm-6 no-padding travel-slider cover-background" >
+                                    
+                                    <a><img src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/images/aw.gif"/></a>
+
+
+                                </div>
+
+
+                                <div class="col-md-6 col-sm-6 no-padding travel-slider cover-background" >
+
+
+                                    <!-- slider text -->
+                                    <div class="slider-typography text-left padding-twenty-seven xs-padding-thirteen">
+                                        <div class="slider-text-middle-main">
+                                            <div class="slider-text-middle slider-typography-option2 xs-display-block">
+                                                <span class="black-text  letter-spacing-3 alt-font-xd ">
+                                                    Una marca de ropa rikolina para elfas y papus shidoris.
+                                                    <br/><strong>No ban plox.</strong></span>
+                                                    <br/>
+
+
+                                                <div class="bg-orange separator-line-extra-thick no-margin-lr margin-twenty-two xs-margin-thirteen xs-no-margin-lr xs-width-20"></div>
+
+
+
+                                                <p class="black-text text-uppercase letter-spacing-2 alt-font width-90 xs-text-small"></p>
+
+<!-- end slider t
+                                                <a class="highlight-button-transparent-border btn btn-medium margin-thirteen no-margin-lr no-margin-bottom inner-link" href="#packages">Explore Now</a>
+
+ext -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end slider text -->
+
+
+
+                                </div>
+
+
+
+
+
+
+
+
+                                    
+                               
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end slider item -->
+                <!-- slider item -->
+                
+                <!-- end slider item -->
+            </div>
+        </section>
+        <!-- end slider -->
+        <!-- tailor made packages section -->
+
+
+
+
+
+
+
+        
+        <section id="packages" class="wow fadeIn work-4col work-with-title gutter transparent-figcaption no-padding-bottom">
+            <div class="container">
+                <!-- section title -->
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 text-center">
+                        <span class="alt-font-xd text-uppercase title-extra-large deep-orange-text letter-spacing-1">Es Épico</span>
+                        <span class="text-large-x letter-spacing-1 margin-one display-block text-uppercase light-gray-text alt-font-xd">Que buena tela prro <br/> <strong>+1000 y a favoritos</strong></span>
+                    </div>
+                </div>
+                <!-- end section title -->
+            </div>
+            <div class="container-fluid">
+                <div class="row margin-nine no-margin-lr no-margin-bottom">
+                    <div class="col-md-12 center-col margin-lr-auto text-center margin-five no-margin-lr no-margin-top sm-padding-nine sm-no-margin-lr sm-no-padding-top xs-padding-two xs-no-margin-lr xs-no-padding-top">
+                        <!-- filter navigation -->
+                        <ul class="portfolio-filter nav nav-tabs portfolio-filter-tab-style-3 alt-font text-uppercase letter-spacing-1 xs-margin-eleven xs-no-margin-lr">
+                            <li class="nav active xs-display-inline"><a href="#" class="xs-display-inline" data-filter="*">Todos</a></li>
+                            <li class="nav xs-display-inline"><a href="#" class="xs-display-inline" data-filter=".elfas">Elfas</a></li>
+                            <li class="nav xs-display-inline"><a href="#" class="xs-display-inline" data-filter=".papus">Papus</a></li>
+
+
+                          
+                        </ul>
+                        <!-- end filter navigation -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="grid-gallery grid-style3 overflow-hidden">
+                        <div class="tab-content">
+                            <ul class="masonry-items grid">
+                                <t t-foreach="products" t-as="product">
+                                    <li t-att-class="product.class_type">
+                                        <figure>
+                                            <div class="gallery-img">
+                                                <a href="#" class="work-details-popup">
+                                                    <img t-att-src="'data:image/png;base64,%s' % (product.image)" alt=""/>
+                                                </a>
+                                            </div>
+                                            <figcaption>
+                                                <h3 class="text-large alt-font text-uppercase letter-spacing-2">
+                                                    <t t-esc="product.name"/>
+                                                </h3>
+                                                <span class="text-small alt-font text-uppercase letter-spacing-2 font-weight-100 display-block light-gray-text">
+                                                    <t t-esc="product.description_sale"/>
+                                                </span>
+                                                <div class="explore-now bg-deep-orange text-uppercase alt-font"><a href="#" class="work-details-popup">Explore Now</a></div>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                </t>
+                                <!-- packages item -->
+                                <!--<li class="safari family honeymoon">-->
+                                <!--    <figure>-->
+                                <!--        <div class="gallery-img"><a href="#" class="work-details-popup"><img src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/images/epic/1.png" alt=""/></a></div>-->
+                                <!--        <figcaption>-->
+                                <!--            <h3 class="text-large alt-font text-uppercase letter-spacing-2">Best of Paris</h3>-->
+                                <!--            <span class="text-small alt-font text-uppercase letter-spacing-2 font-weight-100 display-block light-gray-text">8 Days / 7 Nights - $2500</span>-->
+                                <!--            <div class="explore-now bg-deep-orange text-uppercase alt-font"><a href="#" class="work-details-popup">Explore Now</a></div>-->
+                                <!--        </figcaption>-->
+                                <!--    </figure>-->
+                                    <!-- details popup -->
+                                <!--    <div class="popup-info">-->
+                                <!--        <div class="popup-main bg-white">-->
+                                <!--            <section class="no-padding">-->
+                                <!--                <div class="container-fluid">-->
+                                <!--                    <div class="row">-->
+                                <!--                        <div class="col-lg-6 col-md-12 col-sm-12 no-padding">-->
+                                <!--                            <div class="owl-slider-full owl-carousel owl-theme light-pagination square-pagination dark-pagination-without-next-prev-arrow main-slider">-->
+                                                                <!-- slider item -->
+                                <!--                                <div class="item owl-bg-img full-screen" style="background-image:url('images/epic/1.png');"></div>-->
+                                                                <!-- end slider item -->
+                                                                <!-- slider item -->
+                                <!--                                <div class="item owl-bg-img full-screen" style="background-image:url('images/epic/1.png');"></div>-->
+                                                                <!-- end slider item -->
+                                                                <!-- slider item -->
+                                <!--                                <div class="item owl-bg-img full-screen" style="background-image:url('images/epic/1.png');"></div>-->
+                                                                <!-- end slider item -->
+                                <!--                            </div>-->
+                                <!--                        </div>-->
+                                                        <!-- popup text -->
+                                <!--                        <div class="col-lg-6 col-md-12 col-sm-12 padding-eighteen no-padding-bottom">-->
+                                <!--                            <div class="padding-ten no-padding-lr no-padding-top border-bottom">-->
+                                <!--                                <span class="alt-font black-text font-weight-600 title-extra-large-x letter-spacing-2 text-uppercase display-block">Como cuando no sabes porque te graban.</span>-->
+                                <!--                                <span class="alt-font title-small letter-spacing-2 text-uppercase display-block margin-two no-margin-lr">80% Algodón, 20% Poliester <br/> Hecho en México </span>-->
+                                <!--                                <p class="text-medium margin-ten no-margin-bottom no-margin-lr">-->
+
+                                                                
+
+                                <!--                                 </p>-->
+                                <!--                            </div>-->
+                                <!--                            <div class=" padding-ten no-padding-lr pull-left itinerary ajax-popup-content">-->
+
+
+                                <!--                            <p><span>$ 120,00</span> </p>-->
+                                                                
+
+
+                                                               
+                                <!--                            </div>-->
+                                <!--                        </div>-->
+                                                        <!-- end popup text -->
+                                <!--                    </div>-->
+                                <!--                </div>-->
+                                <!--            </section>-->
+                                <!--        </div>-->
+                                <!--    </div>-->
+                                    <!-- end details popup -->
+                                <!--</li>-->
+                                <!-- end packages item -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- special offer section -->
+        <section id="special-offer" class="wow fadeIn fix-background fix-background-webkit" style="background-image:url('images/indiofino.jpg');">
+            <div class="opacity-full bg-dark-blue"></div>
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 text-center">
+                        <span class="alt-font-xd text-uppercase title-extra-large deep-orange-text letter-spacing-1">LPM que ofertón</span>
+                        <span class="text-large-x letter-spacing-1 margin-one display-block text-uppercase light-gray-text alt-font-xd"><strong>No es lo que esperaba pero estoy satisfecho</strong></span>
+                    </div>
+                </div>
+                <div class="row margin-fifteen no-margin-lr no-margin-bottom blog-post-style2">
+                    <!-- special offer item -->
+                    <article class="col-mxd-6 col-sm-6 col-xs-12 margin-four no-margin-lr no-margin-top">
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding bg-white-xxx">
+                            <div class="col-md-6 col-sm-6 col-xs-6 no-padding post-thumbnail overflow-hidden">
+                                <a href="#"><img src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/images/epic/1.png"  alt=""/></a>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 no-padding post-details-arrow">
+                                <div class="post-details">
+                                    <span class="text-extra-large text-uppercase display-block alt-font margin-ten no-margin-lr sm-text-small xs-text-small"><a href="#">WHEN quieres saber por que te graban</a></span>
+                                    <span class="text-medium text-uppercase letter-spacing-2 alt-font light-gray-text sm-text-extra-small"><small>TALLAS</small><br/>CH · M · L / $75ºº</span>
+                                    <div class="separator-line-thick bg-dark-blue margin-fifteen no-margin-bottom margin-lr-auto"></div>
+                                    <div class="travel-special-off bg-deep-orange position-absolute alt-font white-text sm-text-extra-small">50% de descuento</div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- end special offer item -->
+                    <!-- special offer item -->
+                    <article class="col-md-6 col-sm-6 col-xs-12 margin-four no-margin-lr no-margin-top">
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding bg-white-xxx">
+                            <div class="col-md-6 col-sm-6 col-xs-6 no-padding post-thumbnail overflow-hidden">
+                                <a href="#"><img src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/images/epic/31.png"  alt=""/></a>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 no-padding post-details-arrow">
+                                <div class="post-details">
+                                    <span class="text-extra-large text-uppercase display-block alt-font margin-ten no-margin-lr sm-text-small xs-text-small"><a href="#">Como WHEN no puedes hacer nada bien</a></span>
+                                    <span class="text-medium text-uppercase letter-spacing-2 alt-font light-gray-text sm-text-extra-small"><small>TALLAS</small><br/> M · L / $90ºº</span>
+                                    <div class="separator-line-thick bg-dark-blue margin-fifteen no-margin-bottom margin-lr-auto"></div>
+                                    <div class="travel-special-off bg-deep-orange position-absolute alt-font white-text sm-text-extra-small">30% de descuento</div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- end special offer item -->
+                    
+                </div>
+            </div>
+        </section>
+        <!-- end special offer section -->
+        
+        <!-- end blog section -->
+
+
+
+        <section id="contact" class="wow fadeIn border-top background-dark33 border-bottom border-transperent-white-light">
+            <div class="container">
+                <div class="row">
+                    <!-- section title -->
+                    <div class="col-md-12 col-sm-12 text-center">
+                        <span class="alt-font-xd text-uppercase title-extra-large deep-orange-text letter-spacing-1">Contacto</span>
+                        <span class="text-large-x letter-spacing-1 margin-one display-block text-uppercase light-gray-text alt-font-xd">Deje su contacto buen hombre</span>
+                    </div>
+                    <!-- end section title -->
+                </div>
+                <!-- text -->
+                
+                <!-- end text -->
+                <div class="row">
+                    <!-- form -->
+                    <form id="travelcontactform" action="javascript:void(0)" method="post">
+                        <div class="col-md-10 col-sm-12 center-col">
+                            <div class="row"><div class="col-md-12 col-sm-12"><div class="wide-separator-line margin-twelve no-margin-lr bg-white-transparent"></div></div>
+                                <div class="col-md-12 col-sm-12"><div id="success" class="no-margin-lr"></div></div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <!-- input -->
+                                <input type="text" placeholder="tu nombre prro" name="name" id="name" class="medium-input-light alt-font"/>
+                                <!-- end input -->
+                                <!-- input -->
+                                <input type="text" placeholder="@mail.com" name="email" id="email" class="medium-input-light alt-font"/>
+                                <!-- end input -->
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <!-- textarea -->
+                                <textarea placeholder="YOUR MESSAGE" name="comment" id="comment" class="medium-input-light alt-font" style="height:122px"></textarea>
+                                <!-- end textarea -->
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="col-md-6 col-sm-6 col-xs-12 no-padding-left"><span class="required">*Please complete all fields correctly</span></div>
+                                <div class="col-md-6 col-sm-6 col-xs-12 no-padding-right sm-text-right xs-no-padding-left xs-padding-eleven">
+                                    <input type="button" class="highlight-button-gray-border btn btn-small no-margin" value="SEND NUDES" name="travel-contact-button" id="travel-contact-button"/></div>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- end form -->
+                </div>
+            </div>
+        </section>
+        <!-- end contact section -->
+        <!-- footer -->
+        <footer class="wow fadeIn cover-background" style="background-color: #000;">
+            <div class="opacity-light bg-dark-blue"></div>
+            <div class="footer-top position-relative">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 text-center xs-margin-nineteen xs-no-margin-lr xs-no-margin-top">
+                            <span class="text-uppercase alt-font text-large margin-four no-margin-lr no-margin-top display-block medium-gray-text">Can't wait to get involved,<br/> <span>Connect with us now!</span></span>
+
+
+                        </div>
+                        <!-- social media link -->
+                        <div class="col-md-12 col-sm-12 center-col text-center">
+                            <a class="btn social-icon button no-letter-spacing no-margin padding-one-half no-padding-tb no-padding-left" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+
+
+                            <a class="btn social-icon button no-letter-spacing no-margin padding-one-half no-padding-tb no-padding-left" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+
+
+                            <a class="btn social-icon button no-letter-spacing no-margin padding-one-half no-padding-tb no-padding-left" href="https://twitter.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+
+
+
+                           
+                        </div>
+                        <!-- end social media link -->
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom no-padding position-relative">
+                <div class="container">
+                    <!-- footer logo -->
+                    <div class="row border-top border-transperent-white-light padding-four no-padding-lr xs-padding-twenty-three xs-no-padding-lr">
+                        <div class="col-md-12 col-sm-12 text-center margin-one no-margin-top no-margin-lr">
+                            <a class="inner-link" href="#home"><img src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/images/x2logo.png" alt=""/></a>
+                        </div>
+                        <div class="col-md-12 col-sm-12 text-center">
+                            <span class="text-small text-uppercase letter-spacing-1 light-gray-text alt-font"> 2017 Un producto de <a href="http://www.psycorp.mx/" target="_blank" class="light-gray-text">Psycorp</a></span>
+                        </div>
+                    </div>
+                    <!-- end footer logo -->
+                </div>
+            </div>
+        </footer>
+        <!-- end footer --><!-- scroll to top -->
+        <a href="javascript:;" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+        <!-- end scroll to top -->
+        <!-- javascript libraries -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/modernizr.js"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/skrollr.min.js"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/smooth-scroll.js"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/jquery.appear.js"></script>
+        <!-- menu navigation -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/jquery.nav.js"></script>
+        <!-- animation -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/wow.min.js"></script>
+        <!-- page scroll -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/page-scroll.js"></script>
+        <!-- owl carousel -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/owl.carousel.min.js"></script>
+        <!-- counter -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/jquery.countTo.js"></script>
+        <!-- parallax -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/jquery.parallax-1.1.3.js"></script>
+        <!-- magnific popup -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/jquery.magnific-popup.min.js"></script>
+        <!-- portfolio with shorting tab -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/isotope.pkgd.min.js"></script>
+        <!-- images loaded -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/imagesloaded.pkgd.min.js"></script>
+        <!-- pull menu -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/classie.js"></script>
+        <!-- counter  -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/counter.js"></script>
+        <!-- fit video  -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/jquery.fitvids.js"></script>
+        <!-- setting -->
+        <script type="text/javascript" src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/js/main.js"></script>
+    </body>
+</html>
+</template>
+</odoo>
