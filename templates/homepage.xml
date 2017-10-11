@@ -199,84 +199,73 @@ ext -->
                         <div class="tab-content">
                             <ul class="masonry-items grid">
                                 <t t-foreach="products" t-as="product">
-                                    <li t-att-class="product.class_type">
+                                    <li t-att-class="product['class_type']">
                                         <figure>
                                             <div class="gallery-img">
                                                 <a href="#" class="work-details-popup">
-                                                    <img t-att-src="'data:image/png;base64,%s' % (product.image)" alt=""/>
+                                                    <img t-att-src="'/images/%s' % (product['id'])" alt=""/>
                                                 </a>
                                             </div>
                                             <figcaption>
                                                 <h3 class="text-large alt-font text-uppercase letter-spacing-2">
-                                                    <t t-esc="product.name"/>
+                                                    <t t-esc="product['name']"/>
                                                 </h3>
                                                 <span class="text-small alt-font text-uppercase letter-spacing-2 font-weight-100 display-block light-gray-text">
-                                                    <t t-esc="product.description_sale"/>
+                                                    <t t-esc="product['description_sale']"/>
                                                 </span>
                                                 <div class="explore-now bg-deep-orange text-uppercase alt-font"><a href="#" class="work-details-popup">Explore Now</a></div>
                                             </figcaption>
+                                            <div class="popup-info">
+                                                <div class="popup-main bg-white">
+                                                    <section class="no-padding">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 col-md-12 col-sm-12 no-padding">
+                                                                    <div class="owl-slider-full owl-carousel owl-theme light-pagination square-pagination dark-pagination-without-next-prev-arrow main-slider">
+                                                                        <!-- slider item -->
+                                                                        <!-- <div class="item owl-bg-img full-screen" style="background-image:url('images/epic/1.png');"></div> -->
+                                                                        <!-- end slider item -->
+                                                                        <!-- slider item -->
+                                                                        <!-- <div class="item owl-bg-img full-screen" style="background-image:url('images/epic/1.png');"></div> -->
+                                                                        <!-- end slider item -->
+                                                                        <!-- slider item -->
+                                                                        <div class="item owl-bg-img full-screen" >
+                                                                            <img t-att-src="'/images/%s' % (product['id'])" alt=""/>
+                                                                        </div>
+                                                                        <!-- end slider item -->
+                                                                    </div>
+                                                                </div>
+                                                                <!-- popup text -->
+                                                                <div class="col-lg-6 col-md-12 col-sm-12 padding-eighteen no-padding-bottom">
+                                                                    <div class="padding-ten no-padding-lr no-padding-top border-bottom">
+                                                                        <span class="alt-font font-weight-600 title-extra-large-x letter-spacing-2 text-uppercase display-block">
+                                                                            <t t-esc="product['description_sale']"/>
+                                                                        </span>
+                                                                        <span class="alt-font title-small letter-spacing-2 text-uppercase display-block margin-two no-margin-lr">
+                                                                            <t t-esc="product['description']"/>
+                                                                        </span>
+                                                                        <p class="text-medium margin-ten no-margin-bottom no-margin-lr"></p>
+                                                                    </div>
+                                                                    <div class=" padding-ten no-padding-lr pull-left itinerary ajax-popup-content">
+
+
+                                                                    <p><span>
+                                                                        $<t t-esc="product['price']"/>
+                                                                    </span> </p>
+                                                                        
+                                                                       
+                                                                    </div>
+                                                                </div>
+                                                                <!-- end popup text -->
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                            </div>
                                         </figure>
                                     </li>
                                 </t>
-                                <!-- packages item -->
-                                <!--<li class="safari family honeymoon">-->
-                                <!--    <figure>-->
-                                <!--        <div class="gallery-img"><a href="#" class="work-details-popup"><img src="https://cdn.rawgit.com/guiberraMX/X-Store/425f8721/images/epic/1.png" alt=""/></a></div>-->
-                                <!--        <figcaption>-->
-                                <!--            <h3 class="text-large alt-font text-uppercase letter-spacing-2">Best of Paris</h3>-->
-                                <!--            <span class="text-small alt-font text-uppercase letter-spacing-2 font-weight-100 display-block light-gray-text">8 Days / 7 Nights - $2500</span>-->
-                                <!--            <div class="explore-now bg-deep-orange text-uppercase alt-font"><a href="#" class="work-details-popup">Explore Now</a></div>-->
-                                <!--        </figcaption>-->
-                                <!--    </figure>-->
-                                    <!-- details popup -->
-                                <!--    <div class="popup-info">-->
-                                <!--        <div class="popup-main bg-white">-->
-                                <!--            <section class="no-padding">-->
-                                <!--                <div class="container-fluid">-->
-                                <!--                    <div class="row">-->
-                                <!--                        <div class="col-lg-6 col-md-12 col-sm-12 no-padding">-->
-                                <!--                            <div class="owl-slider-full owl-carousel owl-theme light-pagination square-pagination dark-pagination-without-next-prev-arrow main-slider">-->
-                                                                <!-- slider item -->
-                                <!--                                <div class="item owl-bg-img full-screen" style="background-image:url('images/epic/1.png');"></div>-->
-                                                                <!-- end slider item -->
-                                                                <!-- slider item -->
-                                <!--                                <div class="item owl-bg-img full-screen" style="background-image:url('images/epic/1.png');"></div>-->
-                                                                <!-- end slider item -->
-                                                                <!-- slider item -->
-                                <!--                                <div class="item owl-bg-img full-screen" style="background-image:url('images/epic/1.png');"></div>-->
-                                                                <!-- end slider item -->
-                                <!--                            </div>-->
-                                <!--                        </div>-->
-                                                        <!-- popup text -->
-                                <!--                        <div class="col-lg-6 col-md-12 col-sm-12 padding-eighteen no-padding-bottom">-->
-                                <!--                            <div class="padding-ten no-padding-lr no-padding-top border-bottom">-->
-                                <!--                                <span class="alt-font black-text font-weight-600 title-extra-large-x letter-spacing-2 text-uppercase display-block">Como cuando no sabes porque te graban.</span>-->
-                                <!--                                <span class="alt-font title-small letter-spacing-2 text-uppercase display-block margin-two no-margin-lr">80% Algodón, 20% Poliester <br/> Hecho en México </span>-->
-                                <!--                                <p class="text-medium margin-ten no-margin-bottom no-margin-lr">-->
 
-                                                                
-
-                                <!--                                 </p>-->
-                                <!--                            </div>-->
-                                <!--                            <div class=" padding-ten no-padding-lr pull-left itinerary ajax-popup-content">-->
-
-
-                                <!--                            <p><span>$ 120,00</span> </p>-->
-                                                                
-
-
-                                                               
-                                <!--                            </div>-->
-                                <!--                        </div>-->
-                                                        <!-- end popup text -->
-                                <!--                    </div>-->
-                                <!--                </div>-->
-                                <!--            </section>-->
-                                <!--        </div>-->
-                                <!--    </div>-->
-                                    <!-- end details popup -->
-                                <!--</li>-->
-                                <!-- end packages item -->
                             </ul>
                         </div>
                     </div>
