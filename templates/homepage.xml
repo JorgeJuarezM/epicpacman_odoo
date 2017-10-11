@@ -239,10 +239,10 @@ ext -->
                                                                 <div class="col-lg-6 col-md-12 col-sm-12 padding-eighteen no-padding-bottom">
                                                                     <div class="padding-ten no-padding-lr no-padding-top border-bottom">
                                                                         <span class="alt-font font-weight-600 title-extra-large-x letter-spacing-2 text-uppercase display-block">
-                                                                            <t t-esc="product['description_sale']"/>
+                                                                            <t t-esc="product['name']"/>
                                                                         </span>
                                                                         <span class="alt-font title-small letter-spacing-2 text-uppercase display-block margin-two no-margin-lr">
-                                                                            <t t-esc="product['description']"/>
+                                                                            <t t-esc="product['description_sale']"/>
                                                                         </span>
                                                                         <p class="text-medium margin-ten no-margin-bottom no-margin-lr"></p>
                                                                     </div>

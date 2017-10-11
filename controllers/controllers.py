@@ -47,8 +47,8 @@ class EpicWeb(Home):
         
         product_obj = request.env['product.template'].sudo()
         
-        products += product_obj.search([('id', 'in', fix_product_ids)], limit=20)
-        products += product_obj.search([('id', 'in', random_product_ids)])
+        products += product_obj.search([('id', 'in', fix_product_ids)])
+        products += product_obj.search([('id', 'in', random_product_ids)], limit=20)
         
         search_product = list(products)
         random.shuffle(search_product)
