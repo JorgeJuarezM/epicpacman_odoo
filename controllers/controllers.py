@@ -18,7 +18,7 @@ class EpicWeb(Home):
     @http.route('/images/<int:product_id>', type='http', auth="public")
     def images(self, product_id):
         
-        product = request.env['product.template'].browse([product_id])
+        product = request.env['product.template'].sudo().browse([product_id])
         imgname = 'logo'
         imgext = '.png'
                    
